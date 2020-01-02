@@ -1,0 +1,18 @@
+{
+  "name": "language-axe",
+  "main": "./lib/language-axe",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-axe:toggle"
+  },
+  "repository": "https://github.com/axe-lang/language-axe",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
