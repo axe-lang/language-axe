@@ -1,0 +1,44 @@
+'scopeName': 'source.axe'
+'name': 'AxeScript'
+'fileTypes': ['axe']
+
+'patterns': [
+  {
+    'match': 'AXE'
+    'name' : 'entity.name.function.axe'
+  },
+  {
+    'match': 'CARVE'
+    'name' : 'entity.name.function.axe'
+  },
+  {
+    'match': 'VERIFY'
+    'name' : 'entity.name.function.axe'
+  },
+  {
+    'match': 'CHECK'
+    'name' : 'entity.name.function.axe'
+  },
+  {
+    'match': 'PACK'
+    'name' : 'entity.name.function.axe'
+  },
+  {
+    'match': '"[\\w]+"'
+    'name' : 'string.quoted.double.axe'
+  },
+  {
+    'begin': '"/'
+    'end': '/"'
+    'name' : 'string.regexp.axe'
+  },
+  {
+    'begin': '\'/'
+    'end': '/\''
+    'name' : 'string.regexp.axe'
+  },
+  {
+    'match': '^(#( )*[\\w \\d]+)'
+    'name' : 'comment.line.number-sign.axe'
+  }
+]
